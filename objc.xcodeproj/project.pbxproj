@@ -16,6 +16,7 @@
 		D8CBFB1626CFF8FE0000CDAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFB1526CFF8FE0000CDAF /* main.m */; };
 		D8CBFB2026CFF8FE0000CDAF /* objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFB1F26CFF8FE0000CDAF /* objcTests.m */; };
 		D8CBFB2B26CFF8FE0000CDAF /* objcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFB2A26CFF8FE0000CDAF /* objcUITests.m */; };
+		D8D6AA1D26D0FF7B004DD93B /* FindMinMaxThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6AA1C26D0FF7B004DD93B /* FindMinMaxThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D8CBFB2626CFF8FE0000CDAF /* objcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CBFB2A26CFF8FE0000CDAF /* objcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcUITests.m; sourceTree = "<group>"; };
 		D8CBFB2C26CFF8FE0000CDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D6AA1B26D0FF7B004DD93B /* FindMinMaxThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindMinMaxThread.h; sourceTree = "<group>"; };
+		D8D6AA1C26D0FF7B004DD93B /* FindMinMaxThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMinMaxThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D8CBFB1126CFF8FE0000CDAF /* LaunchScreen.storyboard */,
 				D8CBFB1426CFF8FE0000CDAF /* Info.plist */,
 				D8CBFB1526CFF8FE0000CDAF /* main.m */,
+				D8D6AA1B26D0FF7B004DD93B /* FindMinMaxThread.h */,
+				D8D6AA1C26D0FF7B004DD93B /* FindMinMaxThread.m */,
 			);
 			path = objc;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				D8CBFB0B26CFF8FD0000CDAF /* ViewController.m in Sources */,
 				D8CBFB0526CFF8FD0000CDAF /* AppDelegate.m in Sources */,
+				D8D6AA1D26D0FF7B004DD93B /* FindMinMaxThread.m in Sources */,
 				D8CBFB1626CFF8FE0000CDAF /* main.m in Sources */,
 				D8CBFB0826CFF8FD0000CDAF /* SceneDelegate.m in Sources */,
 			);

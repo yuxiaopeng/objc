@@ -35,6 +35,13 @@ void * findMinAndMax(void *arg) {
     return result;
 }
 
+static void wait(void) {
+    time_t start_time = time(NULL);
+    while (time(NULL) == start_time) {
+        // do somthing
+    }
+}
+
 int main(int argc, char * argv[]) {
     size_t const count = 1000000;
     uint32_t inputValues[count];

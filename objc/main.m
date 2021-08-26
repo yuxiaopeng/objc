@@ -8,6 +8,9 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import <pthread.h>
+#import <stdio.h>
+#import <stdlib.h>
+#import <time.h>
 
 struct threadInfo {
     uint32_t * inputValues;
@@ -33,13 +36,6 @@ void * findMinAndMax(void *arg) {
     result->min = min;
     result->max = max;
     return result;
-}
-
-static void wait(void) {
-    time_t start_time = time(NULL);
-    while (time(NULL) == start_time) {
-        // do somthing
-    }
 }
 
 int main(int argc, char * argv[]) {
